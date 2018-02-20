@@ -1,0 +1,65 @@
+# Site settings
+title: 4flyers
+email: contato4flyers@gmail.com
+url: https://4flyers.github.io
+description: "Awesome description"
+skills: "Soluções em Automação"
+meta_author: LastName FirstName
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 201e1e #233140 - blue #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: ff7f00 # - orange FD6E8A
+  secondary-dark: 000000 #A2122F
+  logo_black: 201e1e
+
+# Footer settings
+footer:
+  copyright: 
+  location: Localização
+  social: Siga-nos
+  credits: Créditos
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url: https://www.facebook.com/4flyers/
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/4flyers
+  - title: instagram
+    url: https://www.instagram.com/4flyersbr/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: SIA Sul Quadra 04 C Bloco E Entrada 09 Sobreloja 11
+  - line: Brasília - Brasil
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
